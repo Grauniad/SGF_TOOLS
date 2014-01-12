@@ -3,7 +3,7 @@ SOURCES=$(shell echo *.cpp)
 FATAL_WARNINGS=NO
 
 MODE=CPP
-TAGS_FILE=sgf_tools_kombilo++.tags
+TAGS_FILE=sgf_tools_kombilo-c++.tags
 
 LINKED_LIBS=
 
