@@ -4,3 +4,5 @@ exports
 Libraries/libKombilo/html/
 Libraries/libKombilo/latex/
 Libraries/libKombilo/examples/
+Tests/db/
+*.full_log

@@ -1,4 +1,4 @@
-MAKE_DIRS= libKombilo
+MAKE_DIRS= libKombilo libSimpleAPI
 
 MODE=CPP
 

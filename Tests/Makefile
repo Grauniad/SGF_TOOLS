@@ -1,5 +1,7 @@
 LINKED_LIBS = libKombilo \
+              libSimpleAPI\
               libIOInterface \
+			  libUtils\
               libTest
 
 
@@ -13,6 +15,7 @@ MODE=CPP
 FATAL_WARNINGS=NO
 
 .TEST_SETUP:
-	rm 	db/*
+	mkdir -p db
+	rm 	-f db/*
 
 include ../makefile.include
